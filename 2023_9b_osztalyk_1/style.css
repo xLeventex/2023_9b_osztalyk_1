@@ -1,0 +1,1100 @@
+@font-face {font-family: szallas; src: url(font/Insanibc.ttf);}
+@font-face {font-family: keziras; src: url(font/Spring\ Snowstorm.ttf);}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(orszaghaz.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 10px;
+    margin: 0;
+    text-align: right;
+}
+
+
+.navbar a {
+    position: relative;
+    top: 20px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    right: 770px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid orange;
+    color: blue;
+}
+
+.navbar-brand {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    left: 50px;
+    top: 10px;
+    background-color: transparent
+}
+
+#ok {
+    font-size: 3.8rem;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    color: white;
+}
+
+
+svg {
+    position: absolute;
+    bottom: -220px;
+    color: #250444f4;
+  }
+
+ #svg2 {
+    position: relative;
+    bottom: 65px;
+ }
+
+ #svg3 {
+    position: relative;
+    bottom: 10px;
+ }
+
+ #svg4 {
+    position: relative;
+    bottom: -340px;
+ }
+
+#aktiv {
+    border-bottom: 2px solid orange;
+    color:blue;
+    background-color: transparent
+}
+
+.kartyak {
+    position: relative;
+    left: 1300px;
+    top: 200px;
+    width: 500px;
+}
+
+.elssonap {
+    text-align: center;
+    font-family: szallas;
+    font-weight: normal;
+}
+
+.latnivalok {
+    width: 210px;
+    height: 260px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(orszaghaz.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.szallaskartya7 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya1 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.szallaskartya2 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya3 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas5.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya4 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya5 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas7.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.szallaskartya6 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szallas8.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+.szallasinfok {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: szallas;
+}
+
+.szallasinfok2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+.szallash1 {
+    color: black;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    font-size: 2.8rem;
+    font-family: szallas;
+}
+
+.szallasinfok3 {
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border: 1px solid rgb(16, 212, 180);
+    border-radius: 10px;
+    top: 30px;
+}
+.szallasinfok4 {
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border: 1px solid rgb(16, 212, 180);
+    border-radius: 10px;
+    top: 50px;
+}
+
+.szallasinfok5 {
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border: 1px solid rgb(16, 212, 180);
+    border-radius: 10px;
+    top: 50px;
+}
+
+.szallasinfok6 {
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border: 1px solid rgb(16, 212, 180);
+    border-radius: 10px;
+    top: 70px;
+}
+
+
+
+.szallasinfok3 img {
+    width: 100px;
+    height: 100px;
+}
+.szallasinfok4 img {
+    width: 100px;
+    height: 100px;
+}
+.szallasinfok5 img {
+    width: 100px;
+    height: 100px;
+}
+.szallasinfok6 img {
+    width: 100px;
+    height: 100px;
+}
+
+#informaciok {
+    position: relative;
+    bottom: -100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/duna.jpg);
+    width: 100%;
+    height: 100vh;
+    border-top: 10px solid black;
+}
+
+#infoh1 {
+    position: relative;
+    top: 350px;
+    left: 470px;
+    font-size: 2.4rem;
+    font-family: szallas;
+    font-weight: normal;
+    
+    color: rgb(255, 255, 255);
+}
+
+.info {
+    margin: 0;
+}
+
+#programok {
+    position: relative;
+    bottom: -230px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/budapest.jpg);
+    width: 100%;
+    height: 130vh;
+    border-top: 10px solid black;
+}
+
+#programh1 {
+    position: relative;
+    top: 170px;
+    left: 580px;
+    font-size: 2.6rem;
+    font-family: szallas;
+    font-weight: normal;
+    
+    color: rgb(255, 255, 255);
+}
+
+
+.infokartya {
+    position: relative;
+    left: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 300px;
+    height: 345px;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 160px;
+    margin-left: 80px;
+}
+
+.infokartya1 {
+    position: relative;
+    left: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 300px;
+    height: 345px;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 200px;
+    margin-left: 80px;
+}
+
+.infokartya2 {
+    position: relative;
+    left: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 300px;
+    height: 345px;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    top: 218px;
+    margin-left: 80px;
+}
+
+
+
+.infokartya img {
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.infokartya1 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.infokartya2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.infokartya2 p {
+    font-weight: bold;
+    font-family: keziras;
+    font-size: 1.1rem;
+}
+
+.infokartya p {
+    font-weight: bold;
+    font-family: keziras;
+    font-size: 1.1rem;
+}
+
+.infokartya1 p {
+    font-weight: bold;
+    font-family: keziras;
+    font-size: 1.1rem;
+}
+
+.alahuzas {
+    text-decoration: underline;
+}
+
+#elsonap {
+    font-size: 2.8rem;
+    font-family: szallas;
+    top: 00px;
+    text-align: center;
+    position: relative;
+}
+
+.program {
+    position: relative;
+    top: 330px;
+}
+
+.programkartya {
+        position: relative;
+        top: 30px;
+        width: 400px;
+        height: 430px;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 25px 25px;
+        cursor:pointer;
+        margin: 10px 15px;
+        background-image: url(/images/aquincum1.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-left: 50px;
+        margin-bottom: 10px;
+}
+
+.programkartya2 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/aquincum2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.programkartya3 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/aquincum3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.programkartya4 {
+    position: relative;
+    top: 30px;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/aquincum3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.programkartya5 {
+    position: relative;
+    top: 30px;
+    width: 520px;
+    height: 520px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/dohany\ utcai\ zsini.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.programkartya6 {
+    position: relative;
+    top: 30px;
+    width: 520px;
+    height: 520px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/orszaghaz.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.programkartya7 {
+    position: relative;
+    top: 30px;
+    width: 520px;
+    height: 520px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/szent\ istvan\ bazilika.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.masodiknap {
+    font-family: keziras;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.programkartya8 {
+    position: relative;
+    top: 30px;
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/terror\ haza1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.programkartya9 {
+    position: relative;
+    top: 30px;
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/terror\ haza2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.programkartya10 {
+    position: relative;
+    top: 30px;
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/terror\ haza3.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.programkartya11 {
+    position: relative;
+    top: 30px;
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+    border-left: 1px solid rgb(13, 117, 149);
+    border-radius: 10px;
+    padding: 25px 25px;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-image: url(/images/terror\ haza4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: aqua;
+    top: 350px;
+    position: relative;
+    border-top: 2px solid black;
+    height: 200px;
+    text-align: center;
+    font-family: szallas;
+}
+
+.forrasok p {
+    color: white;
+    font-size: 2.1rem;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .navbar {
+        opacity: 0;
+    }
+    .navbar a {
+        opacity: 0;
+        position: absolute;
+        left: 100px;
+        font-size: 0.5rem;
+        margin-right: 100px;
+        color: white;
+    }
+    
+
+    #ok {
+        position: absolute;
+        left: 30px;
+        top: 430px;
+        color: rgb(255, 255, 255);
+        font-size: 1.78rem;
+        font-family: szallas;
+    }
+
+body {
+    margin: 0
+    ;
+}
+
+    .container {
+        margin: 0;
+        width: 100%;
+        background-image: url(orszaghaz.jpg);
+        background-position: center;
+    }
+
+    .szallash1 {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+
+
+    .szallaskartya {
+        position: relative;
+        left: px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas1.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya1 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas2.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya2 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas3.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    #szallas {
+        position: relative;
+    }
+
+    .szallaskartya3 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas4.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya4 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas5.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya5 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas6.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya6 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas7.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    .szallaskartya7 {
+        position: relative;
+        left: 0px;
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-image: url(/images/szallas8.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin: 0;
+    }
+
+    svg {
+        opacity: 0;
+    }
+
+    #infoh1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .infokartya {
+        position: relative;
+        left: 40px;
+    }
+
+    .infokartya1 {
+        position: relative;
+        left: 40px;
+    }
+
+    .infokartya2 {
+        position: relative;
+        left: 40px;
+    }
+
+     #programok {
+        background-position: center;
+           height: 120vh;
+     }
+
+    #programh1 {
+        position: relative;
+        left: 40px;
+        top: 320px;
+    }
+
+     .program {
+        position: relative;
+        top: 700px;
+     }
+
+     .programkartya {
+        position: relative;
+        right: 50px;
+        width: 100%;
+     }
+
+     .programkartya2 {
+        position: relative;
+        right: 50px;
+        width: 100%;
+     }
+
+     .programkartya3 {
+        position: relative;
+        right: 50px;
+        width: 100%;
+     }
+
+     .programkartya4{
+        position: relative;
+        right: 50px;
+        width: 100%;
+     }
+
+     .programkartya5 {
+        position: relative;
+        right: 50px;
+        width: 100%;
+     }
+
+     .programkartya6 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya7 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya7 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya8 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya9 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya10 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .programkartya11 {
+        position: relative;
+        width: 100%;
+        right: 50px;
+     }
+
+     .footer {
+        position: relative;
+        top: 680px;
+        left: 30px;
+     }
+}
+
+@media (max-width: 1200px) {
+
+svg {
+    opacity: 0;
+}
+
+.navbar {
+    opacity: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.szallash1 {
+    position: relative;
+    left: 360px;
+    top: 150px;
+}
+
+.szallaskartya{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya1{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya2{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya3{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya4{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya5{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya6{
+    width: 100%;
+    right: 50px;
+}
+
+.szallaskartya7{
+    width: 100%;
+    right: 50px;
+}
+
+.szallasinfok2 {
+    position: relative;
+    left: 50px;
+}
+
+.szallasinfok {
+    position: relative;
+    left: 50px;
+}
+
+#infoh1 {
+    position: relative;
+    left: 150px;
+}
+
+.infokartya {
+    position: relative;
+    left: 30px;
+    margin: auto;
+}
+
+img {
+    width: 50%;
+}
+
+.program img {
+    width: 50%;
+}
+
+#programh1 {
+    position: relative;
+    left:30px;
+}
+
+}
+
+@media  (max-width:1900px) {
+    svg {
+    opacity: 0;}
+    .kartyak{
+        opacity: 0;
+    }
+
+}
