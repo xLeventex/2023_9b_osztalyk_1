@@ -127,7 +127,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas1.jpg);
+    background-image: url(szallas1.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -145,7 +145,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas2.jpg);
+    background-image: url(szallas2.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -163,7 +163,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas3.jpg);
+    background-image: url(szallas3.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -180,7 +180,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas4.jpg);
+    background-image: url(szallas4.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -198,7 +198,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas5.jpg);
+    background-image: url(szallas5.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -216,7 +216,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas6.jpg);
+    background-image: url(szallas6.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -234,7 +234,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas7.jpg);
+    background-image: url(szallas7.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -252,7 +252,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szallas8.jpg);
+    background-image: url(szallas8.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -356,7 +356,7 @@ svg {
 #informaciok {
     position: relative;
     bottom: -100px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/duna.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(duna.jpg);
     width: 100%;
     height: 100vh;
     border-top: 10px solid black;
@@ -380,7 +380,7 @@ svg {
 #programok {
     position: relative;
     bottom: -230px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/budapest.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(budapest.jpg);
     width: 100%;
     height: 130vh;
     border-top: 10px solid black;
@@ -512,7 +512,7 @@ svg {
         padding: 25px 25px;
         cursor:pointer;
         margin: 10px 15px;
-        background-image: url(/images/aquincum1.jpg);
+        background-image: url(aquincum1.jpg);
         background-position: center;
         background-size: cover;
         margin-left: 50px;
@@ -530,7 +530,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/aquincum2.jpg);
+    background-image: url(aquincum2.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -548,7 +548,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/aquincum3.jpg);
+    background-image: url(aquincum3.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -566,7 +566,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/aquincum3.jpg);
+    background-image: url(aquincum3.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 50px;
@@ -584,7 +584,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/dohany\ utcai\ zsini.jpg);
+    background-image: url(dohany\ utcai\ zsini.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -602,7 +602,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/orszaghaz.jpg);
+    background-image: url(orszaghaz.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -620,7 +620,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/szent\ istvan\ bazilika.jpg);
+    background-image: url(szent\ istvan\ bazilika.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -644,7 +644,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/terror\ haza1.jpg);
+    background-image: url(terror\ haza1.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -662,7 +662,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/terror\ haza2.jpg);
+    background-image: url(terror\ haza2.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -680,7 +680,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/terror\ haza3.webp);
+    background-image: url(terror\ haza3.webp);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -698,7 +698,7 @@ svg {
     padding: 25px 25px;
     cursor:pointer;
     margin: 10px 15px;
-    background-image: url(/images/terror\ haza4.jpg);
+    background-image: url(terror\ haza4.jpg);
     background-position: center;
     background-size: cover;
     margin-left: 80px;
@@ -774,7 +774,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas1.jpg);
+    background-image: url(szallas1.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -787,7 +787,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas2.jpg);
+    background-image: url(szallas2.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -800,7 +800,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas3.jpg);
+    background-image: url(szallas3.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -817,7 +817,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas4.jpg);
+    background-image: url(szallas4.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -830,7 +830,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas5.jpg);
+    background-image: url(szallas5.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -843,7 +843,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas6.jpg);
+    background-image: url(szallas6.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -856,7 +856,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas7.jpg);
+    background-image: url(szallas7.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
@@ -869,7 +869,7 @@ body {
     height: 330px;
     border: 1px solid black;
     border-radius: 10px; 
-    background-image: url(/images/szallas8.jpg);
+    background-image: url(szallas8.jpg);
     background-position: center;
     background-size: cover; 
     margin: 0;
